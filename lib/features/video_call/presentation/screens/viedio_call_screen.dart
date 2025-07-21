@@ -4,7 +4,6 @@ import 'package:stream_video_flutter/stream_video_flutter.dart';
 import '../controller/video_call_controller.dart';
 import '../widgets/custom_call_controls.dart';
 
-
 class VideoCallScreen extends StatefulWidget {
   const VideoCallScreen({super.key});
 
@@ -65,12 +64,10 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
     if (_isInCall) {
       return Scaffold(
         body: StreamCallContainer(
-
           call: _controller.call,
           callContentBuilder: (context, call, callState) {
             return StreamCallContent(
               call: call,
-              callState: callState,
               callControlsBuilder: (context, call, callState) {
                 return CustomCallControls(
                   call: call,

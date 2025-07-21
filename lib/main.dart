@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:stream_video_flutter/stream_video_flutter.dart';
-import 'package:uuid/uuid.dart';
 
-import 'core/permissions_helper.dart';
-import 'core/secrets.dart';
 import 'features/video_call/presentation/screens/viedio_call_screen.dart';
 
 void main() async {
@@ -17,13 +13,10 @@ class VideoCallApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-       debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,
       title: 'Guitara Video Call',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: const VideoCallScreen(),
     );
   }
 }
-

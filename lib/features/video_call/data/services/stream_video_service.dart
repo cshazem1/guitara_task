@@ -1,6 +1,4 @@
-
 import 'package:stream_video/stream_video.dart';
-
 
 class VideoService {
   final StreamVideo client;

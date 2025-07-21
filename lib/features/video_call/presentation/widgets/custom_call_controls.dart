@@ -17,19 +17,10 @@ class CustomCallControls extends StatelessWidget {
   Widget build(BuildContext context) {
     return StreamCallControls(
       options: [
-        ToggleCameraOption(
-          call: call,
-          localParticipant: localParticipant,
-        ),
-        ToggleMicrophoneOption(
-          call: call,
-          localParticipant: localParticipant,
-        ),
+        ToggleCameraOption(call: call, localParticipant: localParticipant),
+        ToggleMicrophoneOption(call: call, localParticipant: localParticipant),
 
-        LeaveCallOption(
-          call: call,
-          onLeaveCallTap: onLeave,
-        ),
+        LeaveCallOption(call: call, onLeaveCallTap: onLeave),
       ],
     );
   }

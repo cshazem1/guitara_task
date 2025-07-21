@@ -3,7 +3,6 @@ import 'package:uuid/uuid.dart';
 import '../../../../core/permissions_helper.dart';
 import '../../../../core/secrets.dart';
 
-
 class VideoCallController {
   late final StreamVideo streamVideo;
   late final Call call;
@@ -13,14 +12,10 @@ class VideoCallController {
 
     final userId = 'user-${const Uuid().v4()}';
 
-
     streamVideo = StreamVideo(
       Secrets.streamApiKey,
       user: User(
-        info: UserInfo(
-          id: userId,
-          name: userId,
-        ),
+        info: UserInfo(id: userId, name: userId),
         type: UserType.guest,
       ),
     );
