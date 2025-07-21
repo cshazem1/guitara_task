@@ -17,6 +17,7 @@ class VideoCallApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+       debugShowCheckedModeBanner: false,
       title: 'Guitara Video Call',
       theme: ThemeData(
         primarySwatch: Colors.blue,

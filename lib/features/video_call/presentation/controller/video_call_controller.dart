@@ -27,7 +27,7 @@ class VideoCallController {
 
     call = streamVideo.makeCall(
       callType: StreamCallType.defaultType(),
-      id: 'default_c97c8d60-3737-42fd-94d8-53bf139be902',
+      id: Secrets.callId,
     );
   }
 
