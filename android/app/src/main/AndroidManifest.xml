@@ -12,7 +12,7 @@
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
 
     <application
-        android:label="guitara_task"
+        android:label="Quitara Task"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
