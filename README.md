@@ -20,8 +20,9 @@ Users are automatically connected to a predefined room and can see each other’
 
 ## 📸 Screenshots
 
-![WhatsApp Image 2025-07-21 at 23 19 35_7f25691b](https://github.com/user-attachments/assets/d1dda122-3e85-42a2-a5fb-66fc3f16f37e)
-![WhatsApp Image 2025-07-21 at 23 19 34_898a75b0](https://github.com/user-attachments/assets/d0d983cc-5f0a-46c9-9c5f-0659cefb70cb)
+| ![IMG-1](https://chat.openai.com/cdn-cgi/imagedelivery/Vg1ur0dnvPj0IobJ1pY1WA/1stzPWM3N9udz6TXQUuj5o/public) | ![IMG-2](https://chat.openai.com/cdn-cgi/imagedelivery/Vg1ur0dnvPj0IobJ1pY1WA/1stzPWM3N9udz6TXQUuj5o/public) |
+|---|---|
+
 
 
 
