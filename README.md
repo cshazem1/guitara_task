@@ -1,4 +1,4 @@
-# 📱 Flutter Group Video Call App (Using GetStream.io)
+# 📱 Flutter Guitara Task (Group Video Call App).. (Using GetStream.io)
 
 This is a simple Flutter application demonstrating group video calling using the **GetStream.io Video SDK**.  
 Users are automatically connected to a predefined room and can see each other’s video streams without any login or backend.
